@@ -10,3 +10,5 @@ string para indicar o estado de uma casa do jogo. A função retornará todas as
 casas inicialmente vazias.
 * A função jogar(jogador, linha, coluna) irá posicionar o **jogador** ('X' ou
 'O') na posição definida por **linha** e **coluna**.
+* A função validar() irá validar jogada, retornará False caso haja um simbolo --> 
+"se false entao jogada invalida" se posição vazia proseguirá a jogada retornando TRUE.
