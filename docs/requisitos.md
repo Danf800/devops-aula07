@@ -1,6 +1,8 @@
 # Requisitos
-## Estados e inicialização do tabuleiro
-* O sistema deverá manter o estado de cada uma das casas de
-um jogo da velha.
-* Cada casa do jogo da velha poderá estar vazia, ocupada
-pelo 1o jogador ou ocupada pelo 2o jogador.
+##Verificação da validade das jogadas
+
+A peça não movimentará se o campo estiver ocupado com um simbolo, e será exibida a mensagem de movimentação inválida,
+em seguida solicitar uma movimentação diferente.
+
+
+Se a posição estiver desocupada a jogada será válida e o jogo proceseguirá.
