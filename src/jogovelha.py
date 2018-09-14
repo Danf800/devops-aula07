@@ -22,5 +22,12 @@ def main():
 	jogar('X', 1, 1)
 	print(tabuleiro())
 	
+def efetuar_jogada(simbolo):
+	for i in range:
+		if simbolo not in range:
+			print("Jogada permitida!")
+		else:
+			print("Jogada não permitida")
+	
 if __name__ == "__main__":
 main()
